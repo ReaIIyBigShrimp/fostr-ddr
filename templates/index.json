@@ -47,6 +47,37 @@
         "show_text_below": false
       }
     },
+    "165282372894143a51": {
+      "type": "carousel-slider",
+      "blocks": {
+        "e6a0d468-16d0-4237-9db7-11a735438d4b": {
+          "type": "product_slide",
+          "settings": {
+            "product": "mango-protein-smoothie"
+          }
+        },
+        "f7c5bf7c-0a37-47b5-ab4a-f0a6a705ba5a": {
+          "type": "product_slide",
+          "settings": {
+            "product": "mango-protein-smoothie"
+          }
+        },
+        "8c7b4071-c875-42a4-9567-81a1e97ba2ce": {
+          "type": "product_slide",
+          "settings": {
+            "product": "mango-protein-smoothie"
+          }
+        }
+      },
+      "block_order": [
+        "e6a0d468-16d0-4237-9db7-11a735438d4b",
+        "f7c5bf7c-0a37-47b5-ab4a-f0a6a705ba5a",
+        "8c7b4071-c875-42a4-9567-81a1e97ba2ce"
+      ],
+      "settings": {
+        "carousel_heading": "Best Selling"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -80,15 +111,22 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
@@ -202,6 +240,7 @@
   },
   "order": [
     "image_banner",
+    "165282372894143a51",
     "rich_text",
     "featured_collection",
     "collage",
